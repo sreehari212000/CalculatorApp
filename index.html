@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="container">
+    <!-- navbar start -->
+    <nav>
+      <div class="nav-left">
+        <h1>Calc</h1>
+      </div>
+      <div class="nav-right">
+        <p>THEME</p>
+        <img class="toggle" src="https://www.svgrepo.com/show/381896/switch-on-control.svg" alt="">
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="input-field">
+      <h5 data-prevValue></h5>
+      <h2 data-currentValue></h2>
+    </div>
+
+    <div class="button-container">
+      <section class="row1">
+        <div data-number class="btn num7">7</div>
+        <div data-number class="btn num8">8</div>
+        <div data-number class="btn num9">9</div>
+        <div data-delete class="btn del">DEl</div>
+      </section>
+
+      <section class="row1">
+        <div data-number class="btn num4">4</div>
+        <div data-number class="btn num5">5</div>
+        <div data-number class="btn num6">6</div>
+        <div data-operation class="btn plus">+</div>
+      </section>
+
+      <section class="row1">
+        <div data-number class="btn num1">1</div>
+        <div data-number class="btn num2">2</div>
+        <div data-number class="btn num3">3</div>
+        <div data-operation class="btn minus">-</div>
+      </section>
+
+      <section class="row1">
+        <div data-number class="btn point">.</div>
+        <div data-number class="btn num0">0</div>
+        <div data-operation class="btn divide">/</div>
+        <div data-operation class="btn mult">x</div>
+      </section>
+
+
+      <section class="row2">
+        <div data-allclear class="lb reset">RESET</div>
+        <div data-equals class="lb equals">=</div>
+      </section>
+
+
+    </div>
+
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-width: 300px;
+    background-color: #637097;
+    padding: 0 2em;
+    color: #fff;
+    height: 100vh;
+}
+.toggle{
+    height: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.input-field{
+    background-color: #182034;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 1.3em 1em;
+    border-radius: 10px;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #182034;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 1.4em;
+}
+.row1{
+    display: flex;
+    gap: 1em;
+}
+.btn{
+    text-align: center;
+    background-color: #eae3dc;
+    box-shadow: 0px 4px #b4a597;
+    color: #444b5a;
+    padding: 10px 0;
+    flex-basis: 25%;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.del{
+    padding: 8px 20px;
+    background-color: #637097;
+    box-shadow: 0px 4px #404e72;
+    color: #fff;
+}
+.row2{
+    display: flex;
+    gap: 10px;
+}
+.lb{
+    text-align: center;
+    flex-basis: 50%;
+    padding: 10px 0; 
+    border-radius: 5px;
+}
+.equals{
+    background-color: #d03f2f;
+    box-shadow: 0px 4px #93261a;
+}
+.reset{
+    background-color: #637097;
+    box-shadow: 0px 4px #404e72;
+}
