@@ -2,10 +2,15 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: #637097;
 }
 .container{
     min-width: 300px;
-    background-color: #637097;
+    max-width: 900px;
+    margin: 0 auto;
     padding: 0 2em;
     color: #fff;
     height: 100vh;
@@ -17,6 +22,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.nav-left{
+    margin-top: 5em;
+    margin-bottom: 1em;
 }
 .nav-right{
     display: flex;
